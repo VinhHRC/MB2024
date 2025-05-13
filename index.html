@@ -41,11 +41,32 @@
             padding: 0;
             margin: 0;
         }
+        #title {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            color: #000;
+            font-family: Arial, sans-serif;
+        }
+        #title h1 {
+            font-size: 18px;
+            margin: 0;
+            font-weight: bold;
+        }
+        #title p {
+            font-size: 14px;
+            margin: 5px 0 0 0;
+        }
         </style>
-        <title></title>
+        <title>Bản đồ ngập lụt các tỉnh miền Bắc do bão Yagi</title>
     </head>
     <body>
         <div id="map">
+            <div id="title">
+                <h1>Bản đồ ngập lụt các tỉnh miền Bắc do bão Yagi, ngày 12/9/2024</h1>
+                <p>Hoang Duc Vinh - VinhHRC@gmail.com</p>
+            </div>
             <div id="popup" class="ol-popup">
                 <a href="#" id="popup-closer" class="ol-popup-closer"></a>
                 <div id="popup-content"></div>
